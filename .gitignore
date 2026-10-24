@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+
+# Render output
+*.wav
+*.mp3
+_frames/
+rhythm.json
+*_demo/
+demo/
+
+# Keep the committed example render
+!docs/example-score.mp3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
