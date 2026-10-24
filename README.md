@@ -1,5 +1,10 @@
 # video-score-composer
 
+[![CI](https://github.com/SJLH2004/video-score-composer/actions/workflows/ci.yml/badge.svg)](https://github.com/SJLH2004/video-score-composer/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![deps](https://img.shields.io/badge/cloud%20deps-none-success)
+
 **Compose an original score that is locked to your footage — synthesised from oscillators, no samples, no library, no licensing risk.**
 
 Most "add music" tools help you *pick* a track. This one reads the cut: it finds
