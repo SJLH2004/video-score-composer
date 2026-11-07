@@ -12,8 +12,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        # ubuntu-latest 已升到 26.04，setup-python 在该镜像不再提供 Python 3.9，
+        # 所以最低版本固定在 ubuntu-22.04。
+        os: [ubuntu-22.04, windows-latest, macos-latest]
         python-version: ["3.9", "3.12"]
+        include:
+          - os: ubuntu-latest
+            python-version: "3.13"
 
     steps:
       - uses: actions/checkout@v4
